@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2f3640;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px "rgba(0,0,0,0.1)" ;
+}
+.input-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #268C8C;
+  border-radius: 10px;  
+  overflow: hidden;
+}
+.cityInput{
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+.search-icon{
+  padding: 10px;
+  height: 20px;
+  cursor: pointer;
+}
+.search-icon img{
+  margin: 3;
+}
+.image{
+  text-align: center;
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+
+.image img{
+  width: 150px;
+  height: 150px;
+  padding-top: 18px;
+}
+.temp,
+.location,
+.country{
+  margin-top: 5px;
+  font-size: 50px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp{
+  font-weight: 500;
+}
+.location{
+  font-weight: 500;
+  color: orange;
+}
+.country{
+  font-size: 20px;
+  color: #888;
+  font-weight: 500;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.cord div span{
+  font-size: 15px;
+}
+.cord div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding-top: 10px;
+}
+.data-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.element{
+  text-align: center;
+}
+
+.humidityicon{
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+}
+.windicon{
+  width: 50px;
+  height: 50px;
+  padding-right: 5px;
+}
+.humidity-percentage{
+  font-size: 15px;
+  font-weight: bold;
+  color: #666;
+  padding-top: 10px;
+
+}
+.wind-percentage{
+  font-size: 15px;
+  font-weight: bold;
+  color: #666;
+
+}
+.text{
+  font-size: 12px;
+  color: #888
+}
+.copyrights{
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+}
+.copyrights span{
+  color: #333
+}
+.loading-message,
+.city-not-found,
+.error-message{
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
