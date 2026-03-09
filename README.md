@@ -1,16 +1,46 @@
-# React + Vite
+# 🌤️ Real-Time Weather App
+A React JS web application that provides real-time weather information for cities worldwide.
+## 🎯 Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌆 Search and view current weather for any city
 
-Currently, two official plugins are available:
+🌡️ Display temperature, humidity, and wind speed
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔄 Real-time API integration for live weather updates
 
-## React Compiler
+📱 Fully responsive design for desktop and mobile devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Technologies Used
 
-## Expanding the ESLint configuration
+### 💻 Programming Language
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript (React JS) – Handles frontend logic and UI interactions
+
+### 🌐 Web Development
+
+React JS – Component-based frontend framework
+
+HTML5 / CSS3 – Markup and styling
+
+Axios / Fetch API – For fetching API data
+
+### 🛠️ APIs
+
+OpenWeatherMap API – Provides real-time weather data
+#### 📁 Project Structure
+  weather/
+  ├── node_modules/
+  ├── public/
+  │   └── vite.svg
+  ├── src/
+  │   ├── assets/
+  │   ├── App.css
+  │   ├── App.jsx
+  │   └── main.jsx
+  ├── .gitignore
+  ├── eslint.config.js
+  ├── index.html
+  ├── package-lock.json
+  ├── package.json
+  ├── README.md
+  └── vite.config.js
