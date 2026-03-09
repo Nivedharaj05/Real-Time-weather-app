@@ -14,19 +14,19 @@ A React JS web application that provides real-time weather information for citie
 
 ### 💻 Programming Language
 
-  • JavaScript (React JS) – Handles frontend logic and UI interactions
+    • JavaScript (React JS) – Handles frontend logic and UI interactions
 
 ### 🌐 Web Development
 
-  • React JS – Component-based frontend framework
+    • React JS – Component-based frontend framework
 
-  • HTML5 / CSS3 – Markup and styling
+    • HTML5 / CSS3 – Markup and styling
 
-  • Axios / Fetch API – For fetching API data
+    • Axios / Fetch API – For fetching API data
 
 ### 🛠️ APIs
 
-  • OpenWeatherMap API – Provides real-time weather data
+    • OpenWeatherMap API – Provides real-time weather data
   
 #### 📁 Project Structure
   weather/
